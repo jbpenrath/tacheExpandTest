@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77A6E91F1A5DC1C7006B05CC /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A6E91E1A5DC1C7006B05CC /* PocketSVG.m */; };
+		77A6E9341A5DEF09006B05CC /* bottom-base.svg in Resources */ = {isa = PBXBuildFile; fileRef = 77A6E9301A5DEF09006B05CC /* bottom-base.svg */; };
+		77A6E9351A5DEF09006B05CC /* bottom-expand.svg in Resources */ = {isa = PBXBuildFile; fileRef = 77A6E9311A5DEF09006B05CC /* bottom-expand.svg */; };
+		77A6E9361A5DEF09006B05CC /* top-base.svg in Resources */ = {isa = PBXBuildFile; fileRef = 77A6E9321A5DEF09006B05CC /* top-base.svg */; };
+		77A6E9371A5DEF09006B05CC /* top-expand.svg in Resources */ = {isa = PBXBuildFile; fileRef = 77A6E9331A5DEF09006B05CC /* top-expand.svg */; };
 		9304C3841A5D901C00BAD874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304C3831A5D901C00BAD874 /* main.m */; };
 		9304C3871A5D901C00BAD874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304C3861A5D901C00BAD874 /* AppDelegate.m */; };
 		9304C38A1A5D901C00BAD874 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304C3891A5D901C00BAD874 /* ViewController.m */; };
 		9304C38D1A5D901C00BAD874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9304C38B1A5D901C00BAD874 /* Main.storyboard */; };
 		9304C38F1A5D901C00BAD874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9304C38E1A5D901C00BAD874 /* Images.xcassets */; };
-		9304C3921A5D901C00BAD874 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9304C3901A5D901C00BAD874 /* LaunchScreen.xib */; };
 		9304C39E1A5D901D00BAD874 /* tacheExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304C39D1A5D901D00BAD874 /* tacheExpandTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77A6E91D1A5DC1C7006B05CC /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketSVG.h; sourceTree = "<group>"; };
+		77A6E91E1A5DC1C7006B05CC /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketSVG.m; sourceTree = "<group>"; };
+		77A6E9301A5DEF09006B05CC /* bottom-base.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bottom-base.svg"; sourceTree = "<group>"; };
+		77A6E9311A5DEF09006B05CC /* bottom-expand.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bottom-expand.svg"; sourceTree = "<group>"; };
+		77A6E9321A5DEF09006B05CC /* top-base.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "top-base.svg"; sourceTree = "<group>"; };
+		77A6E9331A5DEF09006B05CC /* top-expand.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "top-expand.svg"; sourceTree = "<group>"; };
 		9304C37E1A5D901C00BAD874 /* tacheExpand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tacheExpand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9304C3821A5D901C00BAD874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9304C3831A5D901C00BAD874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +46,6 @@
 		9304C3891A5D901C00BAD874 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9304C38C1A5D901C00BAD874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9304C38E1A5D901C00BAD874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9304C3911A5D901C00BAD874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9304C3971A5D901D00BAD874 /* tacheExpandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tacheExpandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9304C39C1A5D901D00BAD874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9304C39D1A5D901D00BAD874 /* tacheExpandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tacheExpandTests.m; sourceTree = "<group>"; };
@@ -60,6 +69,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A6E9201A5DC1CD006B05CC /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				77A6E9301A5DEF09006B05CC /* bottom-base.svg */,
+				77A6E9311A5DEF09006B05CC /* bottom-expand.svg */,
+				77A6E9321A5DEF09006B05CC /* top-base.svg */,
+				77A6E9331A5DEF09006B05CC /* top-expand.svg */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		77A6E9251A5DC1D2006B05CC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				77A6E9261A5DC1D7006B05CC /* PocketSVG */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		77A6E9261A5DC1D7006B05CC /* PocketSVG */ = {
+			isa = PBXGroup;
+			children = (
+				77A6E91D1A5DC1C7006B05CC /* PocketSVG.h */,
+				77A6E91E1A5DC1C7006B05CC /* PocketSVG.m */,
+			);
+			name = PocketSVG;
+			sourceTree = "<group>";
+		};
+		77A6E9271A5DC1EB006B05CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9304C3881A5D901C00BAD874 /* ViewController.h */,
+				9304C3891A5D901C00BAD874 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		9304C3751A5D901C00BAD874 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +127,13 @@
 		9304C3801A5D901C00BAD874 /* tacheExpand */ = {
 			isa = PBXGroup;
 			children = (
+				77A6E9201A5DC1CD006B05CC /* Path */,
 				9304C3851A5D901C00BAD874 /* AppDelegate.h */,
 				9304C3861A5D901C00BAD874 /* AppDelegate.m */,
-				9304C3881A5D901C00BAD874 /* ViewController.h */,
-				9304C3891A5D901C00BAD874 /* ViewController.m */,
+				77A6E9271A5DC1EB006B05CC /* ViewController */,
 				9304C38B1A5D901C00BAD874 /* Main.storyboard */,
 				9304C38E1A5D901C00BAD874 /* Images.xcassets */,
-				9304C3901A5D901C00BAD874 /* LaunchScreen.xib */,
+				77A6E9251A5DC1D2006B05CC /* Libs */,
 				9304C3811A5D901C00BAD874 /* Supporting Files */,
 			);
 			path = tacheExpand;
@@ -199,9 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A6E9371A5DEF09006B05CC /* top-expand.svg in Resources */,
 				9304C38D1A5D901C00BAD874 /* Main.storyboard in Resources */,
-				9304C3921A5D901C00BAD874 /* LaunchScreen.xib in Resources */,
+				77A6E9351A5DEF09006B05CC /* bottom-expand.svg in Resources */,
 				9304C38F1A5D901C00BAD874 /* Images.xcassets in Resources */,
+				77A6E9361A5DEF09006B05CC /* top-base.svg in Resources */,
+				77A6E9341A5DEF09006B05CC /* bottom-base.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A6E91F1A5DC1C7006B05CC /* PocketSVG.m in Sources */,
 				9304C38A1A5D901C00BAD874 /* ViewController.m in Sources */,
 				9304C3871A5D901C00BAD874 /* AppDelegate.m in Sources */,
 				9304C3841A5D901C00BAD874 /* main.m in Sources */,
@@ -250,14 +300,6 @@
 				9304C38C1A5D901C00BAD874 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9304C3901A5D901C00BAD874 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9304C3911A5D901C00BAD874 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,6 +454,7 @@
 				9304C3A31A5D901D00BAD874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9304C3A41A5D901D00BAD874 /* Build configuration list for PBXNativeTarget "tacheExpandTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				9304C3A61A5D901D00BAD874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
