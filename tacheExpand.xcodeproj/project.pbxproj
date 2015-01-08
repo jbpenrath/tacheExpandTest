@@ -18,6 +18,8 @@
 		9304C38D1A5D901C00BAD874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9304C38B1A5D901C00BAD874 /* Main.storyboard */; };
 		9304C38F1A5D901C00BAD874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9304C38E1A5D901C00BAD874 /* Images.xcassets */; };
 		9304C39E1A5D901D00BAD874 /* tacheExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9304C39D1A5D901D00BAD874 /* tacheExpandTests.m */; };
+		935249361A5ECADC0084AE05 /* JAPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 935249351A5ECADC0084AE05 /* JAPushView.m */; };
+		93D440821A5E82E000987CA7 /* rect.svg in Resources */ = {isa = PBXBuildFile; fileRef = 93D440811A5E82E000987CA7 /* rect.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		9304C3971A5D901D00BAD874 /* tacheExpandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tacheExpandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9304C39C1A5D901D00BAD874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9304C39D1A5D901D00BAD874 /* tacheExpandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tacheExpandTests.m; sourceTree = "<group>"; };
+		935249341A5ECADC0084AE05 /* JAPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAPushView.h; sourceTree = "<group>"; };
+		935249351A5ECADC0084AE05 /* JAPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAPushView.m; sourceTree = "<group>"; };
+		93D440811A5E82E000987CA7 /* rect.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rect.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,7 @@
 		77A6E9201A5DC1CD006B05CC /* Path */ = {
 			isa = PBXGroup;
 			children = (
+				93D440811A5E82E000987CA7 /* rect.svg */,
 				77A6E9301A5DEF09006B05CC /* bottom-base.svg */,
 				77A6E9311A5DEF09006B05CC /* bottom-expand.svg */,
 				77A6E9321A5DEF09006B05CC /* top-base.svg */,
@@ -102,6 +108,8 @@
 			children = (
 				9304C3881A5D901C00BAD874 /* ViewController.h */,
 				9304C3891A5D901C00BAD874 /* ViewController.m */,
+				935249341A5ECADC0084AE05 /* JAPushView.h */,
+				935249351A5ECADC0084AE05 /* JAPushView.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 				9304C38F1A5D901C00BAD874 /* Images.xcassets in Resources */,
 				77A6E9361A5DEF09006B05CC /* top-base.svg in Resources */,
 				77A6E9341A5DEF09006B05CC /* bottom-base.svg in Resources */,
+				93D440821A5E82E000987CA7 /* rect.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +281,7 @@
 				9304C38A1A5D901C00BAD874 /* ViewController.m in Sources */,
 				9304C3871A5D901C00BAD874 /* AppDelegate.m in Sources */,
 				9304C3841A5D901C00BAD874 /* main.m in Sources */,
+				935249361A5ECADC0084AE05 /* JAPushView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,14 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PocketSVG.h"
+#import "JAPushView.h"
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) UITextView *textView;
-@property (strong, nonatomic) CAShapeLayer *firstLayer;
-@property (strong, nonatomic) CAShapeLayer *secondLayer;
-@property (strong, nonatomic) CALayer *thirdLayer;
+@property (strong, nonatomic) JAPushView *pushView;
 
 @end
 
